@@ -5,6 +5,7 @@ import { IProduct } from './products';
     providedIn: "root"
 })
 export class ProductService{
+    
     getProducts(): IProduct[]{
         return[{
             productId: 1,
